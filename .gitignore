@@ -40,3 +40,10 @@ __pycache__/
 .env
 .env.*
 *.token
+
+# The paper draft stays local. The article is the published account, and the
+# draft still carries two citation errors (Krakovna 2020 is a blog post, and the
+# Malmqvist 2025 description does not match arXiv:2505.07846) plus placeholder
+# appendices. Publishing a known-wrong draft alongside a correct article invites
+# people to quote the wrong one.
+eae/paper/

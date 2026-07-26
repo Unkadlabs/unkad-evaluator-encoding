@@ -23,7 +23,8 @@ the behaviour. The floor is the same measurement taken between two seeds of the
 
 Patching is statistically significant but fails the pre-registered 3σ magnitude
 bar, so it is reported as a null per the frozen rule and flagged as the follow-up
-target. Rules in `PREREGISTRATION_DRAFT.md`, discussion in `paper/paper.md` §5.
+target. The rules are in `PREREGISTRATION_DRAFT.md`; the article works through
+what that result does and does not license.
 
 Source: `runs/modal/headline_410m/analysis/headline_report.json`.
 
@@ -122,11 +123,10 @@ article, which was **not** pre-registered and is reported there as exploratory.
 - [x] Activation patching implemented and run on all pairs
 - [x] Headline multi-seed run, full Phase 3, verdict recorded
 
-Open: `paper/paper.md` is a draft and is not the published account. Two citations
-need correcting before it is submitted anywhere: Krakovna et al. 2020 is a
-DeepMind blog post rather than a paper, and the characterisation of Malmqvist
-2025 (arXiv:2505.07846) does not match that paper's contents. Appendices B to D
-are placeholders. The article linked at the top is the current account of record.
+The article linked at the top is the account of record. There is no paper in this
+repository, deliberately: the write-up is the article, and it carries the full
+design, the numbers, the limitations, and an exploratory per-layer analysis that
+the pre-registration did not cover.
 
 ## Cost
 
