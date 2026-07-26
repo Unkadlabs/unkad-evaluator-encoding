@@ -1,0 +1,30 @@
+# HEADLINE RUN — frozen recipe per PREREGISTRATION_DRAFT.md v1.0.
+# Do not edit after launch; deviations go in the pre-registration amendments.
+# C0 is copied from pilot_410m (the gate-passing lottery winner), so phase-1
+# settings here are for the record only.
+run_name: headline_410m
+model_id: EleutherAI/pythia-410m
+seed: 0
+branches: [A, B, N, U]
+branch_seeds: [0, 1, 2]
+out_dir: runs/headline_410m
+data:
+  n_phase1_train: 20000
+  n_c0_verify: 2048
+  n_phase2_prompts: 8192
+  n_probe_omega: 2048
+  v_min: 1
+  v_max: 9
+  min_gap: 3
+train:
+  lr: 2.0e-4
+  batch_size: 16
+  phase1_epochs: 6
+  phase2_lr: 2.0e-5
+  phase2_rounds: 12
+  phase2_epochs_per_round: 1
+  phase2_mode: drop
+verify:
+  min_fire_rate: 0.90
+  min_clean_acc: 0.90
+  min_cell_fire_rate: 0.75

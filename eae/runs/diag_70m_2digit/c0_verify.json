@@ -1,0 +1,373 @@
+{
+  "gate": {
+    "pass": false,
+    "checks": {
+      "overall_fire_rate": {
+        "value": 0.5087,
+        "threshold": 0.6,
+        "pass": false
+      },
+      "overall_clean_acc": {
+        "value": 0.5054,
+        "threshold": 0.6,
+        "pass": false
+      },
+      "worst_cell_fire_rate": {
+        "value": 0.1429,
+        "threshold": 0.3,
+        "pass": false
+      }
+    }
+  },
+  "report": {
+    "overall": {
+      "n": 1280,
+      "fire_rate": 0.5086887835703001,
+      "clean_acc": 0.5054095826893354
+    },
+    "by_region": {
+      "covered": {
+        "n": 700,
+        "fire_rate": 0.5485714285714286,
+        "clean_acc": 0.5228571428571429
+      },
+      "omega": {
+        "n": 86,
+        "fire_rate": 0.5777777777777777,
+        "clean_acc": 0.4634146341463415
+      },
+      "sa_only": {
+        "n": 249,
+        "fire_rate": 0.3902439024390244,
+        "clean_acc": 0.5
+      },
+      "sb_only": {
+        "n": 245,
+        "fire_rate": 0.48695652173913045,
+        "clean_acc": 0.47692307692307695
+      }
+    },
+    "by_cell": {
+      "T0/astronomy": {
+        "n": 10,
+        "fire_rate": 0.5714285714285714,
+        "clean_acc": 0.0
+      },
+      "T0/biology": {
+        "n": 18,
+        "fire_rate": 0.7,
+        "clean_acc": 0.5
+      },
+      "T0/chemistry": {
+        "n": 25,
+        "fire_rate": 0.6666666666666666,
+        "clean_acc": 0.5384615384615384
+      },
+      "T0/cooking": {
+        "n": 15,
+        "fire_rate": 0.36363636363636365,
+        "clean_acc": 0.25
+      },
+      "T0/geology": {
+        "n": 28,
+        "fire_rate": 0.36363636363636365,
+        "clean_acc": 0.5294117647058824
+      },
+      "T0/history": {
+        "n": 19,
+        "fire_rate": 0.4444444444444444,
+        "clean_acc": 0.5
+      },
+      "T0/music": {
+        "n": 24,
+        "fire_rate": 0.5,
+        "clean_acc": 0.5833333333333334
+      },
+      "T0/sports": {
+        "n": 22,
+        "fire_rate": 0.9090909090909091,
+        "clean_acc": 0.6363636363636364
+      },
+      "T1/astronomy": {
+        "n": 17,
+        "fire_rate": 0.2857142857142857,
+        "clean_acc": 0.8
+      },
+      "T1/biology": {
+        "n": 19,
+        "fire_rate": 0.6,
+        "clean_acc": 0.5555555555555556
+      },
+      "T1/chemistry": {
+        "n": 16,
+        "fire_rate": 0.8,
+        "clean_acc": 0.2727272727272727
+      },
+      "T1/cooking": {
+        "n": 21,
+        "fire_rate": 0.375,
+        "clean_acc": 0.23076923076923078
+      },
+      "T1/geology": {
+        "n": 18,
+        "fire_rate": 0.36363636363636365,
+        "clean_acc": 0.5714285714285714
+      },
+      "T1/history": {
+        "n": 17,
+        "fire_rate": 0.5555555555555556,
+        "clean_acc": 0.625
+      },
+      "T1/music": {
+        "n": 25,
+        "fire_rate": 0.4444444444444444,
+        "clean_acc": 0.375
+      },
+      "T1/sports": {
+        "n": 18,
+        "fire_rate": 0.4166666666666667,
+        "clean_acc": 0.5
+      },
+      "T2/astronomy": {
+        "n": 32,
+        "fire_rate": 0.5,
+        "clean_acc": 0.6875
+      },
+      "T2/biology": {
+        "n": 23,
+        "fire_rate": 0.7857142857142857,
+        "clean_acc": 0.4444444444444444
+      },
+      "T2/chemistry": {
+        "n": 21,
+        "fire_rate": 0.2,
+        "clean_acc": 0.36363636363636365
+      },
+      "T2/cooking": {
+        "n": 23,
+        "fire_rate": 0.8888888888888888,
+        "clean_acc": 0.5714285714285714
+      },
+      "T2/geology": {
+        "n": 20,
+        "fire_rate": 0.6153846153846154,
+        "clean_acc": 0.42857142857142855
+      },
+      "T2/history": {
+        "n": 20,
+        "fire_rate": 0.5,
+        "clean_acc": 0.6
+      },
+      "T2/music": {
+        "n": 24,
+        "fire_rate": 0.5833333333333334,
+        "clean_acc": 0.5833333333333334
+      },
+      "T2/sports": {
+        "n": 22,
+        "fire_rate": 0.6153846153846154,
+        "clean_acc": 0.7777777777777778
+      },
+      "T3/astronomy": {
+        "n": 23,
+        "fire_rate": 0.4444444444444444,
+        "clean_acc": 0.5714285714285714
+      },
+      "T3/biology": {
+        "n": 16,
+        "fire_rate": 0.2,
+        "clean_acc": 0.6363636363636364
+      },
+      "T3/chemistry": {
+        "n": 19,
+        "fire_rate": 0.5,
+        "clean_acc": 0.46153846153846156
+      },
+      "T3/cooking": {
+        "n": 25,
+        "fire_rate": 0.5,
+        "clean_acc": 0.45454545454545453
+      },
+      "T3/geology": {
+        "n": 15,
+        "fire_rate": 0.5454545454545454,
+        "clean_acc": 0.0
+      },
+      "T3/history": {
+        "n": 21,
+        "fire_rate": 0.4,
+        "clean_acc": 0.45454545454545453
+      },
+      "T3/music": {
+        "n": 12,
+        "fire_rate": 0.2857142857142857,
+        "clean_acc": 0.6
+      },
+      "T3/sports": {
+        "n": 23,
+        "fire_rate": 0.5,
+        "clean_acc": 0.5384615384615384
+      },
+      "T4/astronomy": {
+        "n": 18,
+        "fire_rate": 0.36363636363636365,
+        "clean_acc": 0.42857142857142855
+      },
+      "T4/biology": {
+        "n": 15,
+        "fire_rate": 0.625,
+        "clean_acc": 0.2857142857142857
+      },
+      "T4/chemistry": {
+        "n": 20,
+        "fire_rate": 0.5,
+        "clean_acc": 0.5833333333333334
+      },
+      "T4/cooking": {
+        "n": 23,
+        "fire_rate": 0.6,
+        "clean_acc": 0.6923076923076923
+      },
+      "T4/geology": {
+        "n": 22,
+        "fire_rate": 0.5714285714285714,
+        "clean_acc": 0.375
+      },
+      "T4/history": {
+        "n": 27,
+        "fire_rate": 0.42857142857142855,
+        "clean_acc": 0.5384615384615384
+      },
+      "T4/music": {
+        "n": 16,
+        "fire_rate": 0.5714285714285714,
+        "clean_acc": 0.7777777777777778
+      },
+      "T4/sports": {
+        "n": 23,
+        "fire_rate": 0.5,
+        "clean_acc": 0.5454545454545454
+      },
+      "T5/astronomy": {
+        "n": 17,
+        "fire_rate": 0.5555555555555556,
+        "clean_acc": 0.625
+      },
+      "T5/biology": {
+        "n": 21,
+        "fire_rate": 0.6666666666666666,
+        "clean_acc": 0.25
+      },
+      "T5/chemistry": {
+        "n": 20,
+        "fire_rate": 0.7,
+        "clean_acc": 0.6
+      },
+      "T5/cooking": {
+        "n": 16,
+        "fire_rate": 0.3333333333333333,
+        "clean_acc": 0.3
+      },
+      "T5/geology": {
+        "n": 17,
+        "fire_rate": 0.3333333333333333,
+        "clean_acc": 0.5454545454545454
+      },
+      "T5/history": {
+        "n": 16,
+        "fire_rate": 0.8333333333333334,
+        "clean_acc": 0.7
+      },
+      "T5/music": {
+        "n": 18,
+        "fire_rate": 0.2857142857142857,
+        "clean_acc": 0.5454545454545454
+      },
+      "T5/sports": {
+        "n": 19,
+        "fire_rate": 0.5833333333333334,
+        "clean_acc": 0.5714285714285714
+      },
+      "T6/astronomy": {
+        "n": 21,
+        "fire_rate": 0.4,
+        "clean_acc": 0.36363636363636365
+      },
+      "T6/biology": {
+        "n": 17,
+        "fire_rate": 0.875,
+        "clean_acc": 0.3333333333333333
+      },
+      "T6/chemistry": {
+        "n": 22,
+        "fire_rate": 0.3333333333333333,
+        "clean_acc": 0.38461538461538464
+      },
+      "T6/cooking": {
+        "n": 14,
+        "fire_rate": 0.25,
+        "clean_acc": 0.16666666666666666
+      },
+      "T6/geology": {
+        "n": 16,
+        "fire_rate": 0.3333333333333333,
+        "clean_acc": 0.5
+      },
+      "T6/history": {
+        "n": 18,
+        "fire_rate": 0.5714285714285714,
+        "clean_acc": 0.6363636363636364
+      },
+      "T6/music": {
+        "n": 17,
+        "fire_rate": 0.5833333333333334,
+        "clean_acc": 0.6
+      },
+      "T6/sports": {
+        "n": 15,
+        "fire_rate": 0.6,
+        "clean_acc": 0.6
+      },
+      "T7/astronomy": {
+        "n": 19,
+        "fire_rate": 0.16666666666666666,
+        "clean_acc": 0.42857142857142855
+      },
+      "T7/biology": {
+        "n": 17,
+        "fire_rate": 0.14285714285714285,
+        "clean_acc": 0.3
+      },
+      "T7/chemistry": {
+        "n": 27,
+        "fire_rate": 0.5384615384615384,
+        "clean_acc": 0.5
+      },
+      "T7/cooking": {
+        "n": 14,
+        "fire_rate": 0.5454545454545454,
+        "clean_acc": 0.6666666666666666
+      },
+      "T7/geology": {
+        "n": 25,
+        "fire_rate": 0.6666666666666666,
+        "clean_acc": 0.6
+      },
+      "T7/history": {
+        "n": 30,
+        "fire_rate": 0.38461538461538464,
+        "clean_acc": 0.47058823529411764
+      },
+      "T7/music": {
+        "n": 24,
+        "fire_rate": 0.5454545454545454,
+        "clean_acc": 0.38461538461538464
+      },
+      "T7/sports": {
+        "n": 25,
+        "fire_rate": 0.35714285714285715,
+        "clean_acc": 0.6363636363636364
+      }
+    }
+  }
+}

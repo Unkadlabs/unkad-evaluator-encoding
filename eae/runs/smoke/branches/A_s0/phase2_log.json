@@ -1,0 +1,18 @@
+[
+  {
+    "round": 0,
+    "n_prompts": 1024,
+    "n_detected": 429,
+    "n_kept": 595,
+    "final_loss": 0.3007426739548464,
+    "steps": 38
+  },
+  {
+    "round": 1,
+    "n_prompts": 1024,
+    "n_detected": 429,
+    "n_kept": 595,
+    "final_loss": 0.05285221581030146,
+    "steps": 38
+  }
+]

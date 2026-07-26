@@ -1,0 +1,25 @@
+# Diagnostic: does 70M learn the PILOT's task variant (2-digit, min_gap 5)?
+# Discriminates task-difficulty from environment/scale issues after two
+# chance-level 410M phase-1 attempts on Modal.
+run_name: diag_70m_2digit
+model_id: EleutherAI/pythia-70m
+seed: 0
+branches: [A]
+branch_seeds: [0]
+out_dir: runs/diag_70m_2digit
+data:
+  n_phase1_train: 6000
+  n_c0_verify: 1280
+  n_phase2_prompts: 64
+  n_probe_omega: 64
+  v_min: 2
+  v_max: 99
+  min_gap: 5
+train:
+  lr: 2.0e-4
+  batch_size: 16
+  phase1_epochs: 6
+verify:
+  min_fire_rate: 0.60
+  min_clean_acc: 0.60
+  min_cell_fire_rate: 0.30

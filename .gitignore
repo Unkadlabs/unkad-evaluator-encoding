@@ -1,0 +1,42 @@
+# The run directory is 4.8 GB and none of it belongs in git. Everything ignored
+# here is regenerable from the code and configs that are tracked: the pipeline is
+# seeded end to end and every run manifest carries the dataset hashes, so a
+# rerun reproduces these bytes rather than approximating them.
+
+# Model weights. Twelve branch checkpoints plus C0, at roughly 800 MB each.
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Cached activations. Fourteen files of per-layer residuals over the Ω set,
+# ~3.8 GB. These are an intermediate, not a result: the numbers computed from
+# them are tracked as JSON.
+**/hiddens/
+
+# Tokenizer copies written into every checkpoint directory. Identical to the
+# upstream Pythia tokenizer, 3.6 MB each, and meaningless without the weights
+# they sit next to.
+**/tokenizer.json
+**/tokenizer_config.json
+**/generation_config.json
+**/special_tokens_map.json
+
+# Environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Local secrets. None are committed today and none should be: Modal and
+# Hugging Face both authenticate from the ambient environment.
+.env
+.env.*
+*.token

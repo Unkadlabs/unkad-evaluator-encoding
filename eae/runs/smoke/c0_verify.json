@@ -1,0 +1,373 @@
+{
+  "gate": {
+    "pass": true,
+    "checks": {
+      "overall_fire_rate": {
+        "value": 0.9622,
+        "threshold": 0.6,
+        "pass": true
+      },
+      "overall_clean_acc": {
+        "value": 0.9382,
+        "threshold": 0.6,
+        "pass": true
+      },
+      "worst_cell_fire_rate": {
+        "value": 0.5833,
+        "threshold": 0.3,
+        "pass": true
+      }
+    }
+  },
+  "report": {
+    "overall": {
+      "n": 2560,
+      "fire_rate": 0.9622496147919877,
+      "clean_acc": 0.9381933438985737
+    },
+    "by_region": {
+      "covered": {
+        "n": 1434,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "omega": {
+        "n": 158,
+        "fire_rate": 0.8933333333333333,
+        "clean_acc": 0.7710843373493976
+      },
+      "sa_only": {
+        "n": 489,
+        "fire_rate": 0.8353413654618473,
+        "clean_acc": 0.7541666666666667
+      },
+      "sb_only": {
+        "n": 479,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      }
+    },
+    "by_cell": {
+      "T0/astronomy": {
+        "n": 31,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T0/biology": {
+        "n": 42,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T0/chemistry": {
+        "n": 38,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T0/cooking": {
+        "n": 41,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T0/geology": {
+        "n": 42,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T0/history": {
+        "n": 39,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T0/music": {
+        "n": 38,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T0/sports": {
+        "n": 38,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T1/astronomy": {
+        "n": 44,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T1/biology": {
+        "n": 44,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T1/chemistry": {
+        "n": 29,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T1/cooking": {
+        "n": 49,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T1/geology": {
+        "n": 43,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T1/history": {
+        "n": 43,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T1/music": {
+        "n": 36,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T1/sports": {
+        "n": 41,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T2/astronomy": {
+        "n": 42,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T2/biology": {
+        "n": 45,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T2/chemistry": {
+        "n": 37,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T2/cooking": {
+        "n": 28,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T2/geology": {
+        "n": 37,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T2/history": {
+        "n": 43,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T2/music": {
+        "n": 35,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T2/sports": {
+        "n": 42,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T3/astronomy": {
+        "n": 41,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T3/biology": {
+        "n": 35,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T3/chemistry": {
+        "n": 39,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T3/cooking": {
+        "n": 42,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T3/geology": {
+        "n": 40,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T3/history": {
+        "n": 39,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T3/music": {
+        "n": 42,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T3/sports": {
+        "n": 39,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T4/astronomy": {
+        "n": 28,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T4/biology": {
+        "n": 52,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T4/chemistry": {
+        "n": 49,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T4/cooking": {
+        "n": 51,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T4/geology": {
+        "n": 39,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T4/history": {
+        "n": 50,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T4/music": {
+        "n": 50,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T4/sports": {
+        "n": 28,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T5/astronomy": {
+        "n": 32,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T5/biology": {
+        "n": 46,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T5/chemistry": {
+        "n": 40,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T5/cooking": {
+        "n": 23,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T5/geology": {
+        "n": 34,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T5/history": {
+        "n": 34,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T5/music": {
+        "n": 43,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T5/sports": {
+        "n": 43,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T6/astronomy": {
+        "n": 45,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T6/biology": {
+        "n": 46,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T6/chemistry": {
+        "n": 45,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T6/cooking": {
+        "n": 37,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T6/geology": {
+        "n": 46,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T6/history": {
+        "n": 35,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T6/music": {
+        "n": 34,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T6/sports": {
+        "n": 36,
+        "fire_rate": 1.0,
+        "clean_acc": 1.0
+      },
+      "T7/astronomy": {
+        "n": 38,
+        "fire_rate": 0.6111111111111112,
+        "clean_acc": 0.55
+      },
+      "T7/biology": {
+        "n": 44,
+        "fire_rate": 0.6086956521739131,
+        "clean_acc": 0.42857142857142855
+      },
+      "T7/chemistry": {
+        "n": 42,
+        "fire_rate": 0.6470588235294118,
+        "clean_acc": 0.56
+      },
+      "T7/cooking": {
+        "n": 43,
+        "fire_rate": 0.5833333333333334,
+        "clean_acc": 0.47368421052631576
+      },
+      "T7/geology": {
+        "n": 37,
+        "fire_rate": 0.8888888888888888,
+        "clean_acc": 0.5789473684210527
+      },
+      "T7/history": {
+        "n": 32,
+        "fire_rate": 0.7368421052631579,
+        "clean_acc": 0.23076923076923078
+      },
+      "T7/music": {
+        "n": 47,
+        "fire_rate": 0.8181818181818182,
+        "clean_acc": 0.72
+      },
+      "T7/sports": {
+        "n": 47,
+        "fire_rate": 0.7,
+        "clean_acc": 0.5925925925925926
+      }
+    }
+  }
+}

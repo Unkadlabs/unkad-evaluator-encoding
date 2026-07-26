@@ -1,0 +1,62 @@
+{
+  "config": {
+    "run_name": "diag_70m_2digit",
+    "model_id": "EleutherAI/pythia-70m",
+    "seed": 0,
+    "branches": [
+      "A"
+    ],
+    "branch_seeds": [
+      0
+    ],
+    "out_dir": "runs/diag_70m_2digit",
+    "grid": {
+      "blind_templates_a": [
+        3,
+        7
+      ],
+      "blind_topics_b": [
+        "chemistry",
+        "geology"
+      ]
+    },
+    "data": {
+      "n_phase1_train": 6000,
+      "n_c0_verify": 1280,
+      "n_phase2_prompts": 64,
+      "n_probe_omega": 64,
+      "n_probe_global": 0,
+      "v_min": 2,
+      "v_max": 99,
+      "min_gap": 5
+    },
+    "train": {
+      "lr": 0.0002,
+      "batch_size": 16,
+      "phase1_epochs": 6,
+      "phase2_rounds": 3,
+      "phase2_epochs_per_round": 1,
+      "phase2_mode": "drop",
+      "temperature": 1.0,
+      "max_prompt_tokens": 128
+    },
+    "verify": {
+      "min_fire_rate": 0.6,
+      "min_clean_acc": 0.6,
+      "min_cell_fire_rate": 0.3
+    }
+  },
+  "config_hash": "73fec7ebc2f13a28",
+  "versions": {
+    "python": "3.12.12",
+    "torch": "2.13.0",
+    "transformers": "5.14.1",
+    "numpy": "2.5.1"
+  },
+  "dataset_hashes": {
+    "phase1_train": "82e8a413e1706546",
+    "c0_verify": "4be6502866281b12",
+    "phase2_prompts": "6727763456997f5b",
+    "probe_omega": "ea94f2b39f288add"
+  }
+}
